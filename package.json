@@ -1,7 +1,7 @@
 {
-  "name": "@uniswap/sdk-core",
+  "name": "@xyo-network/uniswap-sdk-core",
   "license": "MIT",
-  "version": "4.0.9",
+  "version": "4.1.0",
   "description": "⚒️ An SDK for building applications on top of Uniswap V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -18,12 +18,16 @@
     "build": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test",
-    "prepublishOnly": "tsdx build"
+    "prepublishOnly": "tsdx build",
+    "deploy": "yarn deploy-patch",
+    "deploy-major": "yarn publish --major",
+    "deploy-minor": "yarn publish --minor",
+    "deploy-patch": "yarn publish --patch"
   },
   "dependencies": {
-    "@ethersproject/address": "^5.0.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
+    "ethers": "^6.8.1",
     "jsbi": "^3.1.4",
     "tiny-invariant": "^1.1.0",
     "toformat": "^2.0.0"
