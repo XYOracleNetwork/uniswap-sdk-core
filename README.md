@@ -1,5 +1,7 @@
 # Uniswap SDK Core
 
+# This is a fork by XYLabs for XYO Network that upgrades the library to using ethers v6.
+
 [![Unit Tests](https://github.com/Uniswap/uniswap-sdk-core/workflows/Unit%20Tests/badge.svg)](https://github.com/Uniswap/uniswap-sdk-core/actions?query=workflow%3A%22Unit+Tests%22)
 [![Lint](https://github.com/Uniswap/uniswap-sdk-core/workflows/Lint/badge.svg)](https://github.com/Uniswap/uniswap-sdk-core/actions?query=workflow%3ALint)
 [![npm version](https://img.shields.io/npm/v/@uniswap/sdk-core/latest.svg)](https://www.npmjs.com/package/@uniswap/sdk-core/v/latest)
