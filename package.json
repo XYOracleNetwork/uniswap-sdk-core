@@ -40,6 +40,9 @@
   "engines": {
     "node": ">=10"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "prettier": {
     "printWidth": 120,
     "semi": false,
